@@ -35,5 +35,5 @@ for iy, y in enumerate(Y):
 imshow(Z, cmap = plt.cm.prism, interpolation = 'none', extent = (X.min(), X.max(), Y.min(), Y.max()))
 xlabel("Re(c)")
 ylabel("Im(c)")
-savefig("mandelbrot_python.png")
+savefig("mandelbrot_python.svg")
 show()
