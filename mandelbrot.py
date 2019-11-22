@@ -41,4 +41,3 @@ xlabel("Re(c)")
 ylabel("Im(c)")
 # savefig("mandelbrot_python.svg")
 show()
-
